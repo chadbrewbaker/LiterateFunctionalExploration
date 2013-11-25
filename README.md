@@ -1,4 +1,4 @@
 LiterateFunctionalExploration
 =============================
 
-Iowa Ruby Brigade talk on Cumber and WATIR
+Iowa Ruby Brigade talk on Cucumber and WATIR
