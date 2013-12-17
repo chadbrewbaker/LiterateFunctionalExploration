@@ -1,5 +1,5 @@
 module Support
-  module Controls
+  class Controls
 
     def css_select( search_string)
       require 'nokogiri'

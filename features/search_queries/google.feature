@@ -5,7 +5,7 @@ Feature: Searching on Google
     Then I search for cats
 
 
-    And I use this inline hash for bork:
+   And I use this inline hash for bork:
       | blar | 33 |
       | yabble  | sefsdf |
    And I go to sleep for <baz> seconds
@@ -14,4 +14,4 @@ Feature: Searching on Google
 
   Examples:
     | foo | bar | baz |
-   | bork | foble | 5
+   | bork | foble | 5 |

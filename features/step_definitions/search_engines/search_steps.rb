@@ -1,3 +1,8 @@
+
+When /^I log into Google$/ do
+  $browser.goto 'http://www.google.com'
+end
+
 When /^I search for cats$/ do
   SearchEngines::GooglePage.search_for("cats")
 end
@@ -23,5 +28,5 @@ end
 
 
 When /^I go to sleep for (\w+) seconds$/ do |seconds|
-  sleep seconds
+  sleep seconds.to_i
 end
