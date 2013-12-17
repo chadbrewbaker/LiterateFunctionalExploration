@@ -4,7 +4,6 @@ require 'rspec/expectations'
 
 # require all domain objects
 Dir["features/lib/*/*.rb"].each {|file| require file}
-puts Dir["features/lib/*/*"].each {|file| puts file}   
 
 ##To support ruby 1.8.7 which has no require_relative method
 unless Kernel.respond_to?(:require_relative)
