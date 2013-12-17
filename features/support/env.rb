@@ -19,9 +19,9 @@ $domain = "http://www.google.com"
 
 # define the browser
 require 'rubygems'
-require 'watir'
-$browser = Watir::Browser.new
-$browser.maximize
+require 'watir-webdriver'
+$browser = Watir::Browser.new :phantomjs
+
 
 # require utilities
 $controls = Support::Controls.new
